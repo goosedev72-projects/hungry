@@ -1,0 +1,9 @@
+<resources>
+    <style name="Theme.Hungry" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:statusBarColor">@android:color/transparent</item>
+    </style>
+    
+    <style name="Theme.AnimatedSplash.HungrySplash" parent="Theme.SplashScreen">
+        <item name="postSplashScreenTheme">@style/Theme.Hungry</item>
+    </style>
+</resources>
